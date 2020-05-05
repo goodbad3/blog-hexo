@@ -1,0 +1,28 @@
+https://www.jianshu.com/p/84ae2ba1c133
+
+
+https://zhuanlan.zhihu.com/p/85037898
+https://blog.csdn.net/fullbug/article/details/103844424
+
+
+http://goodbad3.gitee.io/blog
+
+hexo generate --deploy
+hexo new "My New Post"
+hexo clean
+hexo g
+hexo s
+hexo d
+
+
+https://gitee.com/goodbad3/blog/pages
+goodbad3
+963852741abc
+
+
+admin
+live2d
+
+npm install --save hexo-helper-live2d
+npm install --save hexo-admin
+
