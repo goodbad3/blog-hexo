@@ -31,11 +31,44 @@ admin
 live2d
 
 npm install --save hexo-helper-live2d
-npm install --save hexo-admin
+https://www.jianshu.com/p/dba9a729fa57
 
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
+
+
+
+npm install --save hexo-admin
+https://blog.csdn.net/smileyan9/article/details/86666824
 
 
 https://gitee.com/goodbad3/test
 
 git config --global user.name "goodbad3"
 git config --global user.email "7527417+goodbad3@user.noreply.gitee.com"
+
+
+https://blog.csdn.net/loze/article/details/94210657
+
+
+https://soyawww.github.io/2019/08/17/hexo%20next主题美化那些事%EF%BC%88一%EF%BC%89/
+
+https://tieba.baidu.com/p/6182169002
+https://gitee.com/help/articles/4136#article-header1
+
+
+https://blog.csdn.net/justheretobe/article/details/52167068?utm_source=blogxgwz8
+
+

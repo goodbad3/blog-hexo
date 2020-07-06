@@ -10,10 +10,17 @@
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
   {% include '_third-party/analytics/index.swig' %}
+  <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+
+
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">
-
+<link rel="stylesheet" href="/dist/APlayer.min.css">
+<div id="aplayer"></div>
+<script type="text/javascript" src="/dist/APlayer.min.js"></script>
+<script type="text/javascript" src="/dist/music.js"></script>
   {% set container_class = "container " %}
   {% if theme.sidebar.position %}
     {% set container_class = container_class + 'sidebar-position-' + theme.sidebar.position %}
@@ -26,12 +33,14 @@
       <div class="header-inner"> {%- include '_partials/header.swig' %} </div>
     </header>
 
+
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
           <div id="content" class="content">
             {% block content %}{% endblock %}
           </div>
+
           {% include '_third-party/duoshuo-hot-articles.swig' %}
           {% include '_partials/comments.swig' %}
         </div>
@@ -39,6 +48,7 @@
           {% block sidebar %}{% endblock %}
         {% endif %}
       </div>
+
     </main>
 
     <footer id="footer" class="footer">
@@ -47,6 +57,9 @@
         {% include '_third-party/analytics/analytics-with-widget.swig' %}
         {% block footer %}{% endblock %}
       </div>
+      <script src="https://soyawww.github.io/live2d/autoload.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js"></script>
+
     </footer>
 
     {% if not theme.sidebar.b2t %}
@@ -89,6 +102,7 @@
   {% include '_third-party/mathjax.swig' %}
   {% include '_third-party/scroll-cookie.swig' %}
   {% include '_third-party/exturl.swig' %}
-
+<!--浏览器搞笑标题-->
+<script type="text/javascript" src="/js/FunnyTitle.js"></script>
 </body>
 </html>

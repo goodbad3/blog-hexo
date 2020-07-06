@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url:  http://goodbad3.gitee.io/blog
-root: /blog/
+url:  http://goodbad3.gitee.io/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -100,35 +100,16 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://gitee.com/goodbad3/blog.git
+  repo: https://gitee.com/goodbad3/goodbad3.git
   
 
-
-
-
-
 # hexo-admin authentification
-#admin:
-#  username: admin
-#  password_hash: $2a$10$YFAhjXOOUsutjlgheS56.uJkRpqmr6.jsDJWBqZTt/1yCkD6RP.UW
-#  secret: my super secret phrase
+admin:
+  username: admin
+  password_hash: $2a$10$9h37Kqu9PUGUgFwgV9ZGUueXNQC95UoTnw94EBPsZ6/7gcFAFONmC
+  secret: my super secret phrase
 
 
-live2d:
-  enable: true
-  scriptFrom: local
-  pluginRootPath: live2dw/
-  pluginJsPath: lib/
-  pluginModelPath: assets/
-  tagMode: false
-  debug: false
-  model:
-    use: live2d-widget-model-tororo
-  display:
-    position: right
-    width: 150
-    height: 300
-  mobile:
-    show: true
+
 
 
