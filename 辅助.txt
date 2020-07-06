@@ -3,7 +3,7 @@ https://www.jianshu.com/p/84ae2ba1c133
 
 https://zhuanlan.zhihu.com/p/85037898
 https://blog.csdn.net/fullbug/article/details/103844424
-
+https://zhuanlan.zhihu.com/p/51530577
 
 http://goodbad3.gitee.io/blog
 
@@ -20,9 +20,22 @@ goodbad3
 963852741abc
 
 
+C:\Users\admin>D:
+
+D:\>cd blog_hexo
+
+D:\blog_hexo>
+
+
 admin
 live2d
 
 npm install --save hexo-helper-live2d
 npm install --save hexo-admin
 
+
+
+https://gitee.com/goodbad3/test
+
+git config --global user.name "goodbad3"
+git config --global user.email "7527417+goodbad3@user.noreply.gitee.com"
