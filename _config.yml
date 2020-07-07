@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 八局fz
-subtitle: '令行禁止 使命必达'
-description: ''
+title: record
+subtitle: 'Orders and prohibitions, mission must be fulfilled'
+description: 'Orders and prohibitions, mission must be fulfilled'
 keywords:
-author: liu
+author: admin(liu,123456789)
 language: zh-Hans
 timezone: ''
 
@@ -110,6 +110,39 @@ admin:
   secret: my super secret phrase
 
 
+# hexo-neat
+# 博文压缩
+neat_enable: true
+# 压缩html
+neat_html:
+  enable: true
+  exclude:
+# 压缩css  
+neat_css:
+  enable: true
+  exclude:
+    - '**/*.min.css'
+# 压缩js
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '**/*.min.js'
+    - '**/jquery.fancybox.pack.js'
+    - '**/index.js' 
+    - '**/live2d/waifu-tips.js'      
 
 
+#Qiniu
+#admin:
+#  qiniuCfg:
+#      imageslim: true  # 启动图片瘦身，仅华东区bucket可以使用
+#      AccessKey: 'your key'
+#      SecretKey: 'your key'
+#      BucketName: 'your bucketname'
+#      bucketHost: 'your buckethost'
 
+
+      

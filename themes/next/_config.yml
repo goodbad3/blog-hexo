@@ -41,7 +41,7 @@ rss:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  #since: 2015
+  since: 2020
 
   # Icon between year and copyright info.
   icon: user
@@ -830,5 +830,12 @@ post_wordcount:
   wordcount: true         # 单篇 字数统计
   min2read: true          # 单篇 阅读时长
   separated_meta: true
+
+
+# Online contact 
+daovoice: true
+
+daovoice_app_id: 2b327614
+
 
 

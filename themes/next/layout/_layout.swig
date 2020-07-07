@@ -17,10 +17,7 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">
-<link rel="stylesheet" href="/dist/APlayer.min.css">
-<div id="aplayer"></div>
-<script type="text/javascript" src="/dist/APlayer.min.js"></script>
-<script type="text/javascript" src="/dist/music.js"></script>
+
   {% set container_class = "container " %}
   {% if theme.sidebar.position %}
     {% set container_class = container_class + 'sidebar-position-' + theme.sidebar.position %}
@@ -47,8 +44,12 @@
         {% if theme.sidebar.display !== 'remove' %}
           {% block sidebar %}{% endblock %}
         {% endif %}
+<link rel="stylesheet" href="/dist/APlayer.min.css">
+<div id="aplayer"></div>
+<script type="text/javascript" src="/dist/APlayer.min.js"></script>
+<script type="text/javascript" src="/dist/music.js"></script>
       </div>
-
+<script src="https://soyawww.github.io/live2d/autoload.js"></script>
     </main>
 
     <footer id="footer" class="footer">
@@ -57,7 +58,7 @@
         {% include '_third-party/analytics/analytics-with-widget.swig' %}
         {% block footer %}{% endblock %}
       </div>
-      <script src="https://soyawww.github.io/live2d/autoload.js"></script>
+      
       <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js"></script>
 
     </footer>
@@ -104,5 +105,11 @@
   {% include '_third-party/exturl.swig' %}
 <!--浏览器搞笑标题-->
 <script type="text/javascript" src="/js/FunnyTitle.js"></script>
+
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/love.js"></script>
+
+
+
 </body>
 </html>

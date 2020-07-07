@@ -6,11 +6,17 @@
   height: $site-author-image-height;
   border: $site-author-image-border-width solid $site-author-image-border-color;
   border-radius: 60%;
-  transition: 2.5s all;  
+  transition: 2.5s all; 
+  //transition: transform 1s ease-out;
+  animation: rotate 5s linear infinite; 
 }
 
+  @keyframes rotate{from{transform: rotate(0deg)}
+  to{transform: rotate(360deg)}
+  }
+
 .site-author-image:hover {
-    transform: rotate(360deg);
+  //  transform: rotate(360deg);
 }
 
 

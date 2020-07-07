@@ -1,3 +1,10 @@
+hexo clean
+hexo generate --deploy
+https://gitee.com/goodbad3/goodbad3/pages
+goodbad3
+963852741abc
+
+
 https://www.jianshu.com/p/84ae2ba1c133
 
 
@@ -5,7 +12,7 @@ https://zhuanlan.zhihu.com/p/85037898
 https://blog.csdn.net/fullbug/article/details/103844424
 https://zhuanlan.zhihu.com/p/51530577
 
-http://goodbad3.gitee.io/blog
+http://goodbad3.gitee.io/
 
 hexo generate --deploy
 hexo new "My New Post"
@@ -15,7 +22,7 @@ hexo s
 hexo d
 
 
-https://gitee.com/goodbad3/blog/pages
+https://gitee.com/goodbad3/goodbad3/pages
 goodbad3
 963852741abc
 
@@ -70,5 +77,28 @@ https://gitee.com/help/articles/4136#article-header1
 
 
 https://blog.csdn.net/justheretobe/article/details/52167068?utm_source=blogxgwz8
+
+
+在根目录下，新建gulpfile.js文件
+https://www.jianshu.com/p/5e48e532ae58
+https://blog.csdn.net/jinggege0818/article/details/82461795
+https://juejin.im/post/5c062dc7f265da61327f1517
+hexo g
+gulp
+hexo d
+
+hexo-neat
+https://blog.csdn.net/lewky_liu/article/details/82432003
+
+
+https://www.jianshu.com/p/c9de55660d1b
+
+https://www.jianshu.com/p/25766dda5a5f
+
+https://www.jianshu.com/p/02fbd409988c
+
+
+https://blog.juanertu.com/archives/6fd4fff1.html
+
 
 

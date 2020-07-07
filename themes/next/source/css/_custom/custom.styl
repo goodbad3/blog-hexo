@@ -1,29 +1,22 @@
-// Custom styles.
-// 主页文章添加阴影效果
-.post {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    padding: 25px;
-    -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
-    -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+body{
+    background:url(/images/bg.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
 }
 
-// 添加背景图片
-body {
-  background: url(https://source.unsplash.com/random/1600x900?wallpapers);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 50%;
+//侧边框的透明度设置
+.sidebar-inner {
+  background: rgba(255,255,255,0.8);
 }
 
-// 修改主体透明度
-.main-inner {
-  background: #fff;
-  opacity: 0.8;
-}
-
-// 修改菜单栏透明度
+//菜单栏的透明度设置
 .header-inner {
+  background: rgba(255,255,255,0.8);
+}
+
+//搜索框（local-search）的透明度设置
+.popup {
   opacity: 0.8;
 }
