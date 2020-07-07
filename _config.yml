@@ -132,7 +132,8 @@ neat_js:
     - '**/*.min.js'
     - '**/jquery.fancybox.pack.js'
     - '**/index.js' 
-    - '**/live2d/waifu-tips.js'      
+    - '**/live2d/waifu-tips.js'
+    - '**/love.js'      
 
 
 #Qiniu
